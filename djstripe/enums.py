@@ -448,6 +448,8 @@ class SourceRedirectStatus(Enum):
 
 
 class SubscriptionStatus(Enum):
+	incomplete = _("Incomplete")
+	incomplete_expired = _("Incomplete expired")
 	trialing = _("Trialing")
 	active = _("Active")
 	past_due = _("Past due")
